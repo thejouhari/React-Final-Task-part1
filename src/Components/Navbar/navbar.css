@@ -1,0 +1,80 @@
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.logo span {
+  font-size: 50px;
+  font-family: monospace;
+}
+
+.header {
+  width: -webkit-fill-available;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 8px;
+  left: 8px;
+  z-index: 9;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cart img {
+  width: 30px;
+  height: 30px;
+  padding-top: 13px;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav a {
+  font-size: 30px;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.signin,
+.signup {
+  border: solid white 1px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: aliceblue;
+}
+
+.register a {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
